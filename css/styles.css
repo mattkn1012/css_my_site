@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    margin: 0px;
+    height: 100%
+}
+
+a {
+   color: #d19e60; 
+   font-family: 'Montserrat', sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 7px;
+    height: 1px;
+    width: 10%;
+    margin: 8% auto 8% auto;
+    color: #F5B971;
+
+}
+
+h1 {
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+    color: #85A392;
+    }
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    color: #85A392;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.375em;
+    color: #85A392;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+}
+
+.name {
+    position: relative;
+    margin-top: 0px;
+    top: 30%;
+    
+}
+
+.main-desc {
+    margin-top: 0px;
+    position: relative;
+    top: 30%;
+    font-weight: normal;
+}
+
+
+
+.top-container {
+    background-color:#FDD998 ;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.pro {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 20%;
+    bottom: 30%;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+
+}
+
+
+.middle-container {
+    background-color:#FFECC7;
+
+}
+
+.profile {
+    padding-top: 6%;
+    width: 50%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 6% auto 12% auto;
+    text-align: left;
+    line-height: 2;
+}
+
+#pfp {
+    position: relative;
+    top: 17px;
+}
+
+
+.circular {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.computer {
+    float: left;
+    margin-right: 30px;
+}
+
+
+.guitar {
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container {
+    background-color: #FDD998;
+    padding: 50px 0 20px;
+}
+
+.contact-me {
+    padding-bottom: 60px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin-top: 10%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #85A392;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #FDD998;
+    border: solid #85A392 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .copyright {
+     color: rgb(138, 138, 138);
+     font-size: 0.75rem;
+     padding: 20px 0;
+ }
